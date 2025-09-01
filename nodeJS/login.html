@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+    </head>
+<body>
+    <div id = "main-login">
+        <form id = "main-login-form">
+            <span id="login">Login</span><br><br>
+
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name" placeholder=" Numele"><br><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder=" Parola"><br><br>
+            <div><span id = "info">Nu aveți cont? Accesați <a  id="info-link" href="index.html">pagina de înregistrare</a></span></div>
+            <div><span id = "error"></span></div>
+            <input type="submit" value="Login" name="submit">
+        </form>
+    </div>
+    <script src="nodeJS/main.js"></script>
+</body>
+</html>

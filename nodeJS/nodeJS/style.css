@@ -1,0 +1,80 @@
+body {
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm1taGszeWJpMHcydzZkNnN0bzA0MHp0cnptN2ZpZ2RrOXBuenYyZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ko7twHhomhk8E/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centru pe orizontală */
+    align-items: center;     /* centru pe verticală */
+}
+
+
+#main {
+    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmN6dmtsZWYwZWg3bjlzaXBxZDZ4eG9ncnljNHJ4Nmd3Yndia3R5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3osxYcpt78wzES1Edy/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    display: flex;
+    width: 15%;
+    margin: auto;
+    background-color: rgb(201, 2, 158);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#main-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    display: block;
+    align-items: center;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+#gen {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#register {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#main input[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#info-log {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+#info-log-link{
+    color: rgb(134, 166, 252);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#error {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}

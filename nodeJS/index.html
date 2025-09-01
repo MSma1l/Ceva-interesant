@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta hhtp-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="nodeJS/style.css">
+        <title>Register</title> 
+    </head>
+    <body>
+        <noscript>Activati JavaScript in Brauser </noscript>
+<div id ="main">
+        <form id="main-form">
+            <span id="register">Register</span><br><br>
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name" placeholder=" Numele"><br><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder=" Parola"><br><br>
+            <label for="repass">Password verification</label><br>
+            <input type="password" name="repass" id="repass" placeholder=" Parola"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email" placeholder=" Email"><br><br>
+            <span id="gen">Genul:</span><br><br>
+            <input type="radio" name="state" id="male" value="Masculin">
+            <label for="male">Masculin</label>
+            <input type="radio" name="state" id=" female" value="Femenin">
+            <label for="female">Femenin</label><br><br>
+            <div><span id="info-log">Deja aveți cont? Atunci <a  id ="info-log-link" href="login.html">pagina de logare</a></span></div>
+            <div><span id="error"></span></div>
+            <input type="submit"  value = "Submit" name="submit">
+        </form>
+</div>
+        <script src="nodeJS/main.js"></script>
+    </body>
+</html>
